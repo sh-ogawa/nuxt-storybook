@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-storybook",
+  "version": "1.0.0",
+  "description": "storybook with nuxt",
+  "author": "sh-ogawa <syogo0417@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "storybook": "start-storybook -p 19001"
+  },
+  "dependencies": {
+    "@storybook/addon-knobs": "^3.4.10",
+    "@storybook/addon-notes": "^3.4.10",
+    "@storybook/vue": "^3.4.10",
+    "nuxt": "^1.0.0",
+    "storybook-addon-vue-info": "^0.6.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.10",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
